@@ -15,7 +15,7 @@ from threading import Thread
 
 class JdParser:
     def __init__(self):
-        self.conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="l1905", db="qau", charset="utf8")
+        self.conn = MySQLdb.connect(host="127.0.0.1", user="user", passwd="password", db="db", charset="utf8")
         self.link = ''
         self.html_doc = ''
         self.insert_count = 0
